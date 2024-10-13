@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/css/index.css">
+    <title>Home NK</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <!-- Bloco de usuário -->
+            <div id="user">
+                <img src="./img/sidebar.jpg" id="user_avatar" alt="Avatar">
+                <p id="user_infos"></p>
+                <span class="item-description">MENU</span>
+            </div>
+
+            <ul id="side_items">
+            
+                        <!-- inicio das abas -->
+                <li class="side-item">
+    <a href="home" target="_blank">
+          <i class="fas fa-home"></i>
+        <span class="item-description">ﾠINÍCIO</span>
+    </a>
+</li>
+                            <!-- fim -->
+
+                <li class="side-item">
+    <a href="nakatuny" target="_blank">
+         <i class="fa-solid fa-ghost"></i>
+        <span class="item-description">ﾠNAKATUNY</span>
+    </a>
+</li>
+
+                <li class="side-item">
+    <a href="suporte" target="_blank">
+         <i class="fa-solid fa-headset"></i>
+        <span class="item-description">ﾠSUPORTE</span>
+    </a>
+</li>
+                
+<!-- fim -->
+            </ul>
+
+            <button id="open_btn">
+                <i id="open_btn_icon" class="fa-solid fa-circle-chevron-right"></i>
+            </button>
+        </div>
+
+        <div id="logout">
+            <button id="logout_btn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="item-description">
+                    Sair do site
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+<!-- aquilo -->
+   <head>
+      <div class="center">
+         <img src="./img/home.jpg"></img> 
+      </div>
+      <h1>INÍCIO</h1>
+      <main>
+         <section>
+            <h3>SEJA BEM-VINDO(A)!</h3>
+<h4><br>Neste site, você encontrará atualizações sobre a bot, Apis, exemplos de como usar os comandos da Nakatuny e acesso a alguns aplicativos premium.<br></h4>
+<h3><br>DESENVOLVIMENTO</h3>
+<h4><br>Atualmente, o site está sendo desenvolvido por apenas uma pessoa, que tem pouco ou nenhum conhecimento em HTML e CSS. Por isso, o desenvolvimento pode demorar um pouco, pois estou aprendendo a mexer com isso apenas através de tutoriais no YouTube</h4>
+         </section>
+         <section>
+            <h3><br>DOAÇÕES</h3>
+            <h4><br>Se você tiver condições de me ajudar, pode fazer uma doação de qualquer valor através desta chave Pix ⤵️</h4>
+         </section>
+         <section>
+            <h3><br>nakatunysuport00@gmail.com</h3>
+         </section>
+   </head>
+   <!-- aquilo -->
+    </main>
+    <script>
+document.getElementById('open_btn').addEventListener('click', function(){
+    document.getElementById('sidebar').classList.toggle('open-sidebar');
+});
+</script>
+</body>
+</html>

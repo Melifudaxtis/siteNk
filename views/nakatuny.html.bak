@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/css/index.css">
+    <title>Home NK</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <!-- Bloco de usuário -->
+            <div id="user">
+                <img src="./img/sidebar.jpg" id="user_avatar" alt="Avatar">
+                <p id="user_infos"></p>
+                <span class="item-description">MENU</span>
+            </div>
+
+            <!-- Bloco de navegação, agora depois das informações do usuário -->
+            <ul id="side_items">
+<!-- inicio das abas -->
+                <li class="side-item">
+    <a href="home" target="_blank">
+          <i class="fas fa-home"></i>
+        <span class="item-description">ﾠINÍCIO</span>
+    </a>
+</li>
+                            <!-- fim -->
+
+                <li class="side-item">
+    <a href="nakatuny" target="_blank">
+         <i class="fa-solid fa-ghost"></i>
+        <span class="item-description">ﾠNAKATUNY</span>
+    </a>
+</li>
+
+                <li class="side-item">
+    <a href="suporte" target="_blank">
+         <i class="fa-solid fa-headset"></i>
+        <span class="item-description">ﾠSUPORTE</span>
+    </a>
+</li>
+                
+<!-- fim -->
+            </ul>
+
+            <button id="open_btn">
+                <i id="open_btn_icon" class="fa-solid fa-circle-chevron-right"></i>
+            </button>
+        </div>
+
+        <div id="logout">
+            <button id="logout_btn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="item-description">
+                    Sair do site
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+<!-- aquilo -->
+<head>
+      <div class="center">
+         <img src="./img/perfil.jpg"></img> 
+      </div>
+      <h1>Nakatuny</h1>
+      <main>
+         <section>
+            <h3>SOBRE NAKATUNY</h3>
+<h4><br>Nakatuny-Bot é uma Inteligência Artificial totalmente automatizada, criada para auxiliar você em uma ampla variedade de tarefas dentro da plataforma do WhatsApp.</h4>       
+<h3>PROPÓSITO</h3>
+<h4><br>O propósito da bot é tornar seu dia a dia mais prático, eficiente e divertido!, com funcionalidades como:<br><br>1. Criação rápida de figurinhas personalizadas;<br><br>2. Download de músicas, vídeos e imagens de plataformas como YouTube, TikTok, Instagram, Pinterest, Spotify e outras;<br><br>3. Auxílio na administração de grupos, incluindo moderação. Proteja seu grupo com comandos específicos, como anti-link, anti-imagem, anti-vídeo, anti-áudio, anti-localização, entre outros;<br><br>4. Respostas precisas e rápidas para suas dúvidas, utilizando a tecnologia do ChatGPT;<br><br>5. Interações divertidas e personalizadas com jogos, rankings e até um sistema de dinheiro fictício para competições dentro da bot.</h4>
+
+<h4><br>🌺 Aproveite ao máximo todas as funcionalidades que o Nakatuny-Bot oferece.</h4>
+         </section>
+         <section>
+            <h3><br>COMANDOS</h3>
+            <h4><br>Possui + de 200 comandos disponiveis.<br>Voce consultar eles usando: /menu</h4>
+         </section>
+         <section>
+            <h3><br>CONTATO DA BOT</h3>
+            <h3><br></h3>
+           <button
+           onclick="window.location.href='wa.me//558299823364';">Clique aqui para usar a bot</button>
+         </section>
+   </head>
+   <!-- aquilo -->
+    </main>
+    <script>
+document.getElementById('open_btn').addEventListener('click', function(){
+    document.getElementById('sidebar').classList.toggle('open-sidebar');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+/* início home */
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+h4 {
+    color: gray;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+/* home início */
+
+body{
+    display: flex;
+    min-height: 100vh;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: brown;
+    height: 100vh;
+    border-radius: 0px 18px 18px 0px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#sidebar_content {
+    padding: 12px;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+#user_avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+user_infos {
+    display: flex;
+    flex-direction: column;
+}
+
+#user_infos span.last-child {
+    color: aquamarine;
+    font-size: 12px;
+
+}
+
+#side_items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.side-item {
+border-radius: 8px;
+padding: 14px;
+cursor: pointer;
+}
+
+.side-item.active {
+    background-color: black;
+}
+
+.side-item:hover:not(.active),
+#logout_btn:hover {
+    background-color: blueviolet;
+}
+
+.side-item a {
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.side-item.active a {
+color: #e3e9f7;
+}
+
+.side-item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+
+#logout {
+    border-top: 1px solid #e3e9f7;
+    padding: 12px;
+}
+
+#logout_btn {
+border: none;
+padding: 12px;
+font-size: 14px;
+display: flex;
+gap: 20px;
+align-items: center;
+border-radius: 8px;
+text-align: start;
+cursor: pointer;
+background-color: transparent;
+}
+
+#open_btn {
+position: absolute;
+top: 30px;
+right: -10px;
+background-color: black;
+color: #e3e9f7;
+border-radius: 100%;
+width: 20px;
+height: 20px;
+border: none;
+cursor: pointer;
+}
+
+.item-description {
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    transition: width 0.3s ease; /* Para um efeito suave */
+}
+
+#sidebar.open-sidebar .item-description {
+    width: 100px; /* Defina uma largura adequada para exibir o texto */
+
+
+h5 {
+color: white;
+};
+
+/* fim home */
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
